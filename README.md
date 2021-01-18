@@ -1,2 +1,2 @@
 # streamlit_covid
-Análise de COVID-19 com a ferramenta Stremlit
+Análise de COVID-19 com a ferramenta Streamlit
