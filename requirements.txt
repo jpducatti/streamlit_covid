@@ -1,0 +1,8 @@
+#colocar todas as bibliotecas que não são padrão do python (as que importam - com exceção do streamlit pq o streamlit lida com essa questão)
+#importante deixar explícito a versão de cada biblioteca utilizada (com uso do ==). 
+# se não o fizer e deixar sem especificar, ele vai trazer a ver~soa mais atualizada, que pode dar conflito no código por utilizar uma versão passada
+
+matplotlib == 3.3.3
+seaborn == 0.11.0
+pandas == 1.1.5
+numpy == 1.19.4

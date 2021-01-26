@@ -62,14 +62,14 @@ def main():
    
 
     st.title("Análise Óbitos 2019-2020 :man-cartwheeling:")
-    st.markdown("Este trabalho analisa dados dos **óbtidos 2019-2020**") #**para deixar em negrito/bold
-    st.text("Fonte: https://github.com/jpducatti/streamlit_covid/tree/main/dados")
+    st.markdown("Este trabalho analisa dados dos **óbitos 2019-2020**") #**para deixar em negrito/bold
+    st.text("Projeto e fontes em: https://github.com/jpducatti/streamlit_covid")
     
-    opcao_1 = st.selectbox("Selecione o tipo de doença",
+    opcao_1 = st.sidebar.selectbox("Selecione o tipo de doença",
                  tipo_doenca)
-    opcao_2 = st.selectbox("Selecione o estado",
+    opcao_2 = st.sidebar.selectbox("Selecione o estado",
                  estado)
-    opcao_3 = st.selectbox("Gostaria de ver a base de dados?",
+    opcao_3 = st.sidebar.selectbox("Gostaria de ver a base de dados?",
                  ver_tabela)                           
     figura = grafico_comparativo_2(obitos_2019,obitos_2020,
                                    opcao_1,opcao_2)
