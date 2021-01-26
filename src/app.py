@@ -9,6 +9,7 @@ import matplotlib.ticker as ticker
 #claro o que está sendo feito e ORGANIZADO
 # função def main() que define a aplicação e faz várias coisas: recebe título, plotagem do dataframe, 
 
+est.cache
 def carrega_dados(caminho):
     dados = pd.read_csv(caminho)
     return dados
